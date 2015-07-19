@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Alvaro Vera</title>
+    <link href='http://fonts.googleapis.com/css?family=Cantarell' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header class="header">
+        <figure class="logo">
+            <a class="logo--menu" href="">
+                <img src="img/logo.png" alt="Alvaro Vera">
+            </a>
+        </figure>
+        <a id="toggle-menu"><span></span></a>
+        <nav id="navegacion">
+            <ul class="navegacion__lista">
+                <li class="navegacion__item"><a href="#sobreMi"><span class="icon-sobremi"></span>Sobre mí</a></li>
+                <li class="navegacion__item"><a href="#portafolio"><span class="icon-portafolio"></span>Portafolio</a></li>
+                <li class="navegacion__item"><a href=""><span class="icon-blog"></span>Blog</a></li>
+                <li class="navegacion__item"><a href="#contacto"><span class="icon-contacto"></span>Contactame</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="presentacion" id="presentacion">
+        <div class="presentacion-contenedor">
+            <figure class="presentacion__foto">
+                <img src="img/avatar.png" alt="Alvaro Vera">
+            </figure>
+            <h1 class="presentacion__nombre">
+                Alvaro Vera
+            </h1>
+            <hr/>
+            <h3 class="presentacion__profesion">
+                FrontEnd Developer
+            </h3>
+            <div class="presentacion__redesSociales">
+                <a href="https://www.facebook.com/AlvaroVeraB" class="redesSociales__item"><span class="icon-facebook"></span></a>
+                <a href="https://twitter.com/Gorizito" class="redesSociales__item"><span class="icon-twitter"></span></a>
+                <a href="https://github.com/AlvaroVera" class="redesSociales__item"><span class="icon-github"></span></a>
+                <a href="https://plus.google.com/u/0/116798841823705035533/posts/p/pub" class="redesSociales__item"><span class="icon-google-plus"></span></a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="sobreMi" id="sobreMi">
+        <h3 class="sobreMi__titulo">
+            Sobre Mí
+        </h3>
+        <article class="sobreMi__informacion">
+            <figure class="informacion__icon informacion__icon--desarrollador">
+                <img src="img/desarrollador_icon.png" alt="Desarrollador">
+            </figure>
+            <p>
+                Disfruto mucho el hecho de pasar horas en el computador maquetando y realizando nuevos diseños, HTML 5 y CSS 3 son la combinación perfecta, podemos hacer diferentes cosas con tan solo un poco de imaginacion y ah esto le sumas javascript es la combinación completa
+            </p>
+        </article>
+        <article class="sobreMi__informacion">
+            <figure class="informacion__icon informacion__icon--disenador">
+                <img src="img/disenador_icon.png" alt="Disenador">
+            </figure>
+            <p>
+                El hacer cosas divertidas como hacer nuevos diseños es una actividad que me gusta mucho, me considero una persona creativa pero necesita de inspiracion y el diseño fluye por si solo, agregando y quitando cosas para poder alcanzar el diseño deseado
+            </p>
+        </article>
+        <article class="sobreMi__informacion">
+            <figure class="informacion__icon informacion__icon--gamer">
+                <img src="img/gamer_icon.png" alt="Gamer">
+            </figure>
+            <p>
+                En mi tiempo de descanso me gusta jugar videojuegos, nada mejor un FIFA o un PES para relajarse y si es contra otra persona mejor, por lo general siempre juego con mi hermano mayor y la pasamos genial, el tiempo en familia es muy importante y gratificantr para mi ya sea frente a la consola o en el campo
+            </p>
+        </article>
+    </section>
+
+
+    <section class="portafolio" id="portafolio">
+        <h3 class="portafolio__titulo">
+            Portafolio
+        </h3>
+        <article class="portafolio__items">
+
+        </article>
+        <article class="portafolio__items">
+
+        </article>
+        <article class="portafolio__items">
+
+        </article>
+        <article class="portafolio__items">
+
+        </article>
+    </section>
+
+
+    <section class="contacto" id="contacto">
+        <h3 class="contacto__titulo">
+            Conctacto
+        </h3>
+
+            <div class="contacto__saludo">
+                <p>
+                    Hey, si has llegado hasta aqui, espero poder ayudarte y que podamos trabajar juntos, si tienes alguna consulta no dudes en hacermelo llegar.
+                </p>
+                <p class="contacto__saludo--email">
+                    <span class="icon-mail2"></span>
+                    alvaro291095@gmail.com
+                </p>
+                <p class="contacto__saludo--telefono">
+                    <span class="icon-phone"></span>
+                    (+51) 945095700
+                </p>
+            </div>
+            <div class="contacto__formulario">
+                <form action="">
+                    <input class="formulario__box" type="text" placeholder="Nombre" required>
+                    <input class="formulario__box" type="email" placeholder="Email" required>
+                    <input class="formulario__box" type="text" placeholder="Asunto" >
+                    <textarea class="formulario__box" name="mensaje" id="" cols="30" rows="5" placeholder="Mensaje" required></textarea>
+                    <button type="submit" class="formulario__boton">Enviar</button>
+                </form>
+            </div>
+
+    </section>
+
+
+    <footer class="footer">
+        <p class="footer__author">
+            © 2015 Developed by <a href="https://www.facebook.com/AlvaroVeraB">Alvaro Vera</a>
+        </p>
+        <div class="scrollTop">
+            <div class="scrollTop__flecha">
+                <div class="scrollTop--linea1"></div>
+                <div class="scrollTop--linea2"></div>
+                <div class="scrollTop--linea3"></div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
